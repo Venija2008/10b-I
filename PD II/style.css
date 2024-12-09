@@ -1,0 +1,42 @@
+#main-container{
+    display: flex;
+}
+header{
+    background-color: palevioletred;
+   text-align: center;
+   padding: 7px;
+   gap: 12px;
+   }
+   footer{
+    background-color: palevioletred;
+    text-align: center;
+    padding: 7px;
+    gap: 12px;
+   }
+   nav{
+    background-color: pink;
+    text-align:center;
+    padding: 7px;
+    gap: 12px;
+   }
+   #side-content{
+    width: 30%;
+    border-radius: 6px;
+    border: 1px solid black;
+    float: right;
+   }
+   #photo-container{
+    display: grid;
+    width: 40%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 3px;
+    border-radius: 6px;
+    border: 1px solid plum;
+    border: 2 powderblue;
+   }
+  .photo{
+    height: 70%;
+    width: 70%;
+    grid-column: span 2;
+    border: 1px solid black;
+  }
