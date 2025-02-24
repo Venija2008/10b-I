@@ -16,14 +16,13 @@
     background-color:rgb(143, 255, 171)
 }
 #item2 {
-    grid-row-start: 2;
-    grid-row-end: 4;
     background-color:rgb(75, 139, 55)
 }
 #item3 {
     background-color:rgb(113, 214, 104)
 }
 #item4 {
+
     background-color:rgb(190, 134, 255)
 }
 #item5 {
